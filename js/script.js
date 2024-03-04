@@ -34,7 +34,7 @@ function troll() {
       x.style.display="none";
       y.style.display="block";
       document.getElementById("alert").innerHTML = "😒";
-      document.getElementById("alert2").innerHTML = "Chơi mà tắt hay thoát là không vui đâu đấy!";
+      document.getElementById("alert2").innerHTML = "Cậu mà tắt hay thoát là mình bùn lắm ó!";
       document.getElementById("audio2").play();
       return false;
 }
