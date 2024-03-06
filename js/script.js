@@ -3,30 +3,25 @@ function hide() {
     const x = document.getElementById("but3");
     const y = document.getElementById("but2");
      x.style.display="block";
-     y.style.display="none";
-     document.getElementById("audio2").play();
-    
+     y.style.display="none";    
 }
 function hide2() {
     const x = document.getElementById("but3");
     const y = document.getElementById("but4");
      x.style.display="none";
      y.style.display="block";
-     document.getElementById("audio2").play();
 }
 function hide3() {
     const x = document.getElementById("but4");
     const y = document.getElementById("but2");
      x.style.display="none";
      y.style.display="none";
-     document.getElementById("audio2").play();
 }
 function show() {
     const x = document.getElementById("click");
     const y = document.getElementById("form1");
      x.style.display="none";
      y.style.display="block";
-    
     
 }
 function troll() {
@@ -36,14 +31,12 @@ function troll() {
       y.style.display="block";
       document.getElementById("alert").innerHTML = "😒";
       document.getElementById("alert2").innerHTML = "Cậu mà tắt hay thoát là mình bùn lắm ó!";
-      document.getElementById("audio2").play();
       return false;
 }
 function troll1() {
     const x = document.getElementById("fbut3");
     const y = document.getElementById("fbut4");
      x.style.display="none";
-     document.getElementById("audio2").play();
      y.style.display="block";
      return false;
 }
@@ -52,7 +45,6 @@ function troll2() {
     const y = document.getElementById("fbut4");
      x.style.display="none";
      y.style.display="none";
-     document.getElementById("audio2").play();
      return false;
 }
 function inrel() {
@@ -67,19 +59,14 @@ function inrel() {
      z.style.display="none";
      y.style.display="none";
      x.style.display="inline";
-     document.getElementById("audio3").play();
-     document.getElementById("audio2").pause();
      document.getElementById("alert2").innerHTML = "";
      return false;
-
 }
 function inrel2() {
     document.getElementById("click").style.display="none";
     document.getElementById("yess").style.display="block";
     document.getElementById("form1").style.display="none";
     document.getElementById("audio").play();
-    document.getElementById("audio2").pause();
-    document.getElementById("audio3").pause();
     return false;
 }
 function trollalt() {
