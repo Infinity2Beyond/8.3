@@ -79,6 +79,7 @@ function inrel2() {
     document.getElementById("yess").style.display="block";
     document.getElementById("form1").style.display="none";
     document.getElementById("audio").play();
+    document.getElementById("audio2").pause();
     document.getElementById("audio3").pause();
     return false;
 
