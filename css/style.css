@@ -13,14 +13,12 @@ h1  {
 }
 h2{
     font-size: 40px;
-}
-h2 {
     color:aliceblue;
 }
 h4 {
     color:aliceblue;
     font-family: 'Amatic SC', cursive;
-    font-size: 35px;
+    font-size: 90px;
 }
 #challen {
     font-size: 110px;
@@ -158,6 +156,9 @@ html, body {
     color: white;
 }
 .final h2 {
+    font-size: 30px;
+}
+.final h4 {
     font-size: 80px;
 }
 #h2h2 {
@@ -198,6 +199,9 @@ html, body {
     }
     .final h2 {
         font-size: 30px;
+    }
+    .final h4 {
+        font-size: 90px;
     }
     #h2h2 {
         font-size: 25px;

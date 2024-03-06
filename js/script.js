@@ -64,13 +64,11 @@ function inrel() {
      v.style.display="inline";
      b.style.display="none";
      z.style.display="none";
-     //c.innerHTML = "";
-     //c.innerHTML = "Thêm một lần bấm hong nữa là tên cậu sẽ hiện trên dk web đó =))";
      y.style.display="none";
      x.style.display="inline";
      document.getElementById("audio3").play();
+     document.getElementById("audio2").pause();
      document.getElementById("alert2").innerHTML = "";
-     //document.getElementById("des").innerHTML = "Không đùa nha!";
      return false;
 
 }
@@ -79,9 +77,9 @@ function inrel2() {
     document.getElementById("yess").style.display="block";
     document.getElementById("form1").style.display="none";
     document.getElementById("audio").play();
+    document.getElementById("audio2").pause();
     document.getElementById("audio3").pause();
     return false;
-
 }
 function trollalt() {
     document.getElementById("alert2").innerHTML="Sao cậu hong muốn, sẽ rất bất ngờ đấy!";
