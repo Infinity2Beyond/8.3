@@ -64,13 +64,11 @@ function inrel() {
      v.style.display="inline";
      b.style.display="none";
      z.style.display="none";
-     //c.innerHTML = "";
-     //c.innerHTML = "Thêm một lần bấm hong nữa là tên cậu sẽ hiện trên dk web đó =))";
      y.style.display="none";
      x.style.display="inline";
      document.getElementById("audio3").play();
+     document.getElementById("audio3").pause();
      document.getElementById("alert2").innerHTML = "";
-     //document.getElementById("des").innerHTML = "Không đùa nha!";
      return false;
 
 }
