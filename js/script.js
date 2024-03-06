@@ -1,7 +1,4 @@
-function test() {
-     document.getElementById("audio4").play();
-    
-}
+
 function hide() {
     const x = document.getElementById("but3");
     const y = document.getElementById("but2");
