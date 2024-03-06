@@ -66,6 +66,7 @@ function inrel2() {
     document.getElementById("click").style.display="none";
     document.getElementById("yess").style.display="block";
     document.getElementById("form1").style.display="none";
+    document.getElementById("audio3").pause();
     document.getElementById("audio").play();
     return false;
 }
