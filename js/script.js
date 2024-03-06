@@ -67,7 +67,7 @@ function inrel() {
      y.style.display="none";
      x.style.display="inline";
      document.getElementById("audio3").play();
-     document.getElementById("audio3").pause();
+     document.getElementById("audio2").pause();
      document.getElementById("alert2").innerHTML = "";
      return false;
 
@@ -76,12 +76,10 @@ function inrel2() {
     document.getElementById("click").style.display="none";
     document.getElementById("yess").style.display="block";
     document.getElementById("form1").style.display="none";
-    document.getElementById("audio").loop = true;
     document.getElementById("audio").play();
     document.getElementById("audio2").pause();
     document.getElementById("audio3").pause();
     return false;
-
 }
 function trollalt() {
     document.getElementById("alert2").innerHTML="Sao cậu hong muốn, sẽ rất bất ngờ đấy!";
