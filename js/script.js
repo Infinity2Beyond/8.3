@@ -24,6 +24,18 @@ function show1() {
      y.style.display="block"; 
      document.getElementById("audio3").play();
 }
+function show2() {
+    const x = document.getElementById("yess");
+    const y = document.getElementById("boxx1");
+     x.style.display="none";
+     y.style.display="block"; 
+}
+function show3() {
+    const x = document.getElementById("boxx1");
+    const y = document.getElementById("img12A1");
+    x.style.display="none";
+    y.style.display="block"; 
+}
 function show() {
     const x = document.getElementById("first");
     const y = document.getElementById("form1");
@@ -88,3 +100,19 @@ function trollalt() {
     alert("Sao cậu hong muốn, sẽ rất bất ngờ đấy!");
     return false;
 }
+
+function createHeart() {
+    const heart = document.createElement('div');
+    heart.classList.add('heart');
+    
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.animationDuration = Math.random() * 2 + 3 + "s";
+    
+    heart.innerText = '💗';
+    
+    document.body.appendChild(heart);
+    
+    setTimeout(() => {
+                heart.remove();
+                }, 5000);
+  }
