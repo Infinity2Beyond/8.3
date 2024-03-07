@@ -77,7 +77,7 @@
         <button id="fbut1" class="fbtn" onclick="return inrel();" style="height: 4rem; font-size: 21px;">Okela~ tất
             nhiên òi</button>
         <h2 id="h24">Cậu đã thật sự sẵn sàng chưa?</h2>
-        <button id="fbut1alt" class="fbtn" onclick="return inrel2();"
+        <button id="fbut1alt" class="fbtn" onclick="return setInterval(createHeart, 300), inrel2();"
             style="display: none; height: 4rem;  font-size: 21px;">Okela~ tất nhiên rồi </button>
         <br><br>
         <button id="fbut2alt" class="fbtn" onclick="return trollalt();" style="height: 4rem; font-size: 21px;">Hong, ai
@@ -141,8 +141,7 @@
               <div class="col-12 mt-5 d-flex justify-content-center">
                 <div class="box">
                   <div div id="boxbody" class="box-body">
-                    <img class="img" src="image/lettter.jpg" title="Click để mở" onclick="return setInterval(createHeart, 300)
-                    ,show3();">
+                    <img class="img" src="image/lettter.jpg" title="Click để mở" onclick="return show3();">
                     <div class="box-lid">      
                       <div class="box-bowtie">
                       </div>
