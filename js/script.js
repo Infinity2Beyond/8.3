@@ -36,6 +36,30 @@ function show3() {
     x.style.display="none";
     y.style.display="block"; 
 }
+function show4() {
+    const x = document.getElementById("img12A1");
+    const y = document.getElementById("second");
+    x.style.display="none";
+    y.style.display="block"; 
+}
+function show5() {
+    const x = document.getElementById("second");
+    const y = document.getElementById("third");
+    x.style.display="none";
+    y.style.display="block"; 
+}
+function backtoending() {
+    const x = document.getElementById("second");
+    const y = document.getElementById("yess");
+    x.style.display="none";
+    y.style.display="block"; 
+}
+function realending() {
+    const x = document.getElementById("third");
+    const y = document.getElementById("end");
+    x.style.display="none";
+    y.style.display="block"; 
+}
 function show() {
     const x = document.getElementById("first");
     const y = document.getElementById("form1");
