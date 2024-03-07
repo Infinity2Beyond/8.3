@@ -26,13 +26,33 @@
 </head>
 
 <body>
-    <audio id="audio3" controls autoplay loop hidden>
-            <source src="audio/audiostart.mp3">
-    </audio>
     <div id="click">
-        <button id="but4" class="btn2" onclick="return hide3();" style="height: 4rem; font-size: 20px;">Hoy, tớ hong
+        <audio id="audio3" loop>
+            <source src="audio/audiostart.mp3">
+        </audio>
+        <div id="boxx" class="boxgift">
+            <div class="row">
+              <div class="col-12">
+                <h2>Open</h2>
+              </div>
+              <div class="col-12 mt-5 d-flex justify-content-center">
+                <div class="box">
+                  <div class="box-body">
+                    <img class="img" src="image/lettter.jpg" onclick="return show1();">
+                    <div class="box-lid">      
+                      <div class="box-bowtie">\
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    </div id ="click1">
+    <button id="but4" class="btn2" onclick="return hide3();" style="height: 4rem; font-size: 20px;">Hoy, tớ hong
             muốn nghe đâu 😐</button>
-        <div class="container">
+        <div id="first" class="container">
             <h1>Hey you !</h1>
             <h2 id="h22">Tớ có điều muốn nói với cậu</h2>
             <h2 id="h2h2">Liệu... cậu có muốn lắng nghe không?</h2>
@@ -44,12 +64,9 @@
                     hong muốn nghe đâu 😐</button>
             </div>
         </div>
-        <br><br><br>
-        <button id="but3" class="btn" onclick="return hide2();" style="height: 4rem; font-size: 20px;">Hoy, tớ hong muốn
-            nghe đâu 😐</button>
-        <audio id="audio2">
-            <source src="audio/audiostart.mp3">
-        </audio>
+    <br><br><br>
+    <button id="but3" class="btn" onclick="return hide2();" style="height: 4rem; font-size: 20px;">Hoy, tớ hong muốn
+        nghe đâu 😐</button>
     </div>
     <form id="form1" class="formcss" onsubmit="return valid();">
         <h1 id="challen">Hôm nay là ngày một ngày đặc biệt</h1>
@@ -74,9 +91,6 @@
         </audio>
     </form>
     <div id="yess" class="final">
-        <audio controls pause hidden>
-            <source src="audio/audiostart.mp3">
-        </audio>
         <h4>Hôm nay là 8/3 á, là một ngày rất rất rất đặc biệt 🥰</h4>
         <h2>Là một ngày (trong rất nhiều ngày trong năm) mà phụ nữ xứng đáng được yêu thương và cậu cũng thế, 8/3 vui vẻ
             và tràn ngập niềm vui nhé </h2>

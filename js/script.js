@@ -17,12 +17,18 @@ function hide3() {
      x.style.display="none";
      y.style.display="none";
 }
-function show() {
+function show1() {
     const x = document.getElementById("click");
-    const y = document.getElementById("form1");
+    const y = document.getElementById("first");
      x.style.display="none";
-     y.style.display="block";
-    
+     y.style.display="block"; 
+     document.getElementById("audio3").play();
+}
+function show() {
+    const x = document.getElementById("first");
+    const y = document.getElementById("form1");
+    x.style.display="none";
+    y.style.display="block";  
 }
 function troll() {
     const x = document.getElementById("fbut2");
