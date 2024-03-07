@@ -9,7 +9,8 @@ h1  {
 .but1, .but2 {
    width: 30rem;
    font-size: 20px;
-   
+    align-items: center;
+    justify-content: center;
 }
 h2{
     font-size: 40px;
@@ -172,22 +173,24 @@ html, body {
     font-size: 40px;
 }
 
+/* Build hộp quà */
 .boxgift {
     text-align: center;
     padding: 70px;
-    display: flex;
-        align-items: center;
-        justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
     position: relative;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .box::before {
     content: "";
-    width: 440px;
-    height: 440px;
+    width: 400px;
+    height: 400px;
     background-color: #89cff0;
     position: absolute;
     z-index: -1;
@@ -282,8 +285,8 @@ html, body {
   }
   .box-bowtie::before, .box-bowtie::after {
     content: "";
-    width: 53.3333333333px;
-    height: 53.3333333333px;
+    width: 83.3333333333px;
+    height: 83.3333333333px;
     border: 16.6666666667px solid rgb(205, 137, 182);
     border-radius: 50% 50% 0 50%;
     position: absolute;

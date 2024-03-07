@@ -27,6 +27,10 @@ function show1() {
 function show() {
     const x = document.getElementById("first");
     const y = document.getElementById("form1");
+    const a = document.getElementById("but3");
+    const b = document.getElementById("but4");
+    a.style.display="none";
+    b.style.display="none";
     x.style.display="none";
     y.style.display="block";  
 }
