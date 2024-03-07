@@ -173,6 +173,13 @@ html, body {
 #h22 {
     font-size: 40px;
 }
+#h23 {
+  font-size: 40px;
+}
+#h24 {
+  font-size: 40px;
+  display: none;
+}
 
 /* Build hộp quà */
 .boxgift {

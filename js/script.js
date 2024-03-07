@@ -61,13 +61,16 @@ function inrel() {
     const x = document.getElementById("fbut1alt");
     const y = document.getElementById("fbut1");
     const z = document.getElementById("click");
-    const c = document.getElementById("challen");
+    const c = document.getElementById("h23");
+    const d = document.getElementById("h24");
     const v =  document.getElementById("fbut2");
     const b = document.getElementById("fbut2alt");
-     v.style.display="inline";
      b.style.display="none";
      z.style.display="none";
      y.style.display="none";
+     c.style.display="none";
+     d.style.display="block";
+     v.style.display="inline";
      x.style.display="inline";
      document.getElementById("alert2").innerHTML = "";
      return false;
