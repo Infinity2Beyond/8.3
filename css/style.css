@@ -67,7 +67,12 @@ html, body {
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
   }
-  
+  a { color: inherit; }
+  a:hover {
+    text-decoration:none; 
+    cursor:auto;  
+}
+
   @keyframes gradient {
       0% {
           background-position: 0% 50%;
