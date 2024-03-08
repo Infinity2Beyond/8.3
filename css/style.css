@@ -112,6 +112,9 @@ html, body {
     font-size: 30px;
     float: left;
   }
+
+  p { display: inline }
+
   .btn2 {
     transition-duration: 0.4s;
     background-color: #23a6d5;
