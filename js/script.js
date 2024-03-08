@@ -140,3 +140,8 @@ function createHeart() {
                 heart.remove();
                 }, 5000);
   }
+
+  function OpenLinks() {
+   
+    window.open('https://drive.google.com/file/d/1kSV7aC1SlqKAs6FmWen3gYC_DFV9rfm6/view?usp=sharing');
+  }

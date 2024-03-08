@@ -85,6 +85,9 @@ html, body {
           background-position: 0% 50%;
       }
   }
+
+  
+
   .button>button {
     transition-duration: 0.4s;
     height: 3rem;
